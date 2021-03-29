@@ -1,0 +1,15 @@
+<picture>
+    <source type="image/webp" srcset="images/hero-large@2x.webp 4096w,
+                                      images/hero-large.webp 1920w,
+                                      images/hero-medium@2x.webp 1536w,
+                                      images/hero-medium.webp 768w,
+                                      images/hero-small@2x.webp 360w,
+                                      images/hero-small.webp 180w"/>
+    <source type="image/jpg" srcset="images/hero-large@2x.jpg 4096w,
+                                      images/hero-large.jpg 1920w,
+                                      images/hero-medium@2x.jpg 1536w,
+                                      images/hero-medium.jpg 768w,
+                                      images/hero-small@2x.jpg 360w,
+                                      images/hero-small.jpg 180w"/>
+    <img src="images/hero-large.jpg" alt="">
+    </picture>
