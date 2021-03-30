@@ -6,6 +6,7 @@ html{
     --color-primary:#F2EEEB;
     --color-secondary:#262622;
     --color-accent:#BF6341;
+--color-brown:#BF8F54;
 }
 
 *,
@@ -66,10 +67,10 @@ h3{
         font-size:7rem;
     }
     h2{
-        font-size:6.854rem;
+        font-size:3.998rem;
     }
     h3{
-        font-size:4.236rem;
+        font-size:2.827rem;
     }
     .lead{
         font-size: 2.4rem;
@@ -82,16 +83,16 @@ h3{
 
 @media screen and (min-width:1024px){
     body{
-        font-size:1.5rem;
+        font-size:1.8rem;
     }
     h1{
         font-size:10rem;
     }
     h2{
-        font-size:6.854rem;
+        font-size:5.063rem;
     }
     h3{
-        font-size:4.236rem;
+        font-size:3.375rem;
     }
 
     .lead-second{
@@ -400,4 +401,42 @@ padding:0.5rem 1rem;
 
 .grid{
     display:grid;
+}
+
+@media screen and (min-width:768px){
+.grid--1x2{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+/* profile */
+
+.profile-block{
+    background-color: var(--color-brown);
+}
+
+.profile__image{
+    width:100%;
+    padding:1rem;
+    margin:0 auto;
+}
+
+.profile__content{
+    padding:1rem;
+    text-align:center;
+}
+
+.profile__heading{
+    margin:0;
+}
+
+
+@media screen and (min-width:1024px){
+    .profile__image{
+        padding:5rem;
+    } 
+    .profile__content{
+        padding:5rem;
+        text-align:left;
+    }
 }

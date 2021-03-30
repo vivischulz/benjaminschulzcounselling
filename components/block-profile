@@ -1,0 +1,20 @@
+<section>
+        <div class="block profile-block">
+            <article class="container grid grid--1x2">
+                <picture>
+                    <source type="image/webp" srcset="images/profile@2x.webp 720w,
+                                                    images/profile.webp 360w"/>
+                    <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
+                                                    images/profile.jpg 360w"/>
+                    <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                    </picture>
+                <div class="profile__content">
+                    <h2 class="profile__heading">About Dr. Benjamin Schulz</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum cupiditate unde debitis
+                        quod reiciendis voluptas, accusantium non quo officiis. Autem sapiente suscipit beatae accusamus
+                        doloribus dolor iusto itaque.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>

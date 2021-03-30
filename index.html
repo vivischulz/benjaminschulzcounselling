@@ -14,14 +14,14 @@
 </head>
 
 <body>
- <section class="no-webp cover-image">
-    
+    <section class="no-webp cover-image">
+
 
         <nav class="container nav collapsible nav-bottom-border">
             <div class="nav__brand">brand</div>
             <svg class="icon icon--seondary nav__toggler">
                 <use xlink:href="images/sprite.svg#menu"></use>
-              </svg>
+            </svg>
             <ul class="list nav__list collapsible__content">
                 <li class="nav__item"><a href="#">home</a></li>
                 <li class="nav__item"><a href="#">service</a></li>
@@ -30,27 +30,50 @@
                 <li class="nav__item"><a href="#">contact</a></li>
             </ul>
         </nav>
-        
-        <section class="container block block__header hero">
-            <h1 class="block__heading hero__heading">Benjamin Schulz Counselling</h1>
-            <p class="lead">Clinical counselling specializing in anxiety, panic attacks, depression, stress, and
-                grief</p> 
-            <button class="btn btn-hero">Book Your Session</button>
-            <p class="lead-second">— Canadian Certified Counsellor in Langley, BC —</p>
+
+        <section class="container block block__header">
+            <header class="hero">
+                <h1 class="block__heading hero__heading">Benjamin Schulz Counselling</h1>
+                <p class="lead">Clinical counselling specializing in anxiety, panic attacks, depression, stress, and
+                    grief</p>
+                <button class="btn btn-hero">Book Your Session</button>
+                <p class="lead-second">— Canadian Certified Counsellor in Langley, BC —</p>
+            </header>
         </section>
-   
-       
-</section>
-
-    
 
 
+    </section>
+
+    <section>
+        <div class="block profile-block">
+            <article class="container grid grid--1x2">
+                <picture>
+                    <source type="image/webp" srcset="images/profile@2x.webp 720w,
+                                                    images/profile.webp 360w"/>
+                    <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
+                                                    images/profile.jpg 360w"/>
+                    <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                    </picture>
+                <div class="profile__content">
+                    <h2 class="profile__heading">About Dr. Benjamin Schulz</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum cupiditate unde debitis
+                        quod reiciendis voluptas, accusantium non quo officiis. Autem sapiente suscipit beatae accusamus
+                        doloribus dolor iusto itaque.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
 
 
 
 
-<script src="js/main.js"></script>
-<script src="js/webp.js"></script>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/webp.js"></script>
 </body>
 
 </html>
