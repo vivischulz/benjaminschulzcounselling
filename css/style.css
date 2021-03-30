@@ -104,28 +104,97 @@ h3{
 
 /* background image */
 .cover-image{
-   background: url(../images/hero-small.jpg) no-repeat;
+   background: url(../images/hero-small.webp) no-repeat;
    background-size: cover;
    height:100vh;
    width:100%;
 background-position: center center;
 }
 
-@media screen and (min-width:768px){
-    .cover-image{
-        background: url(../images/hero-medium.jpg) no-repeat;
-        background-size: cover;
-    }
+.no-webp .cover-image{
+    background: url(../images/hero-small.jpg) no-repeat;
+   background-size: cover; 
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
+
+    .cover-image{
+        background: url(../images/hero-small@2x.webp) no-repeat;
+        background-size: cover;
+     }
+     
+     .no-webp .cover-image{
+         background: url(../images/hero-small@2x.jpg) no-repeat;
+        background-size: cover; 
+     }
+
+}
+
+@media screen and (min-width:768px){
+    .cover-image{
+        background: url(../images/hero-medium.webp) no-repeat;
+        background-size: cover;
+    }
+    .no-webp .cover-image{
+        background: url(../images/hero-medium.jpg) no-repeat;
+       background-size: cover; 
+    }
+}
+  
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 700px) { 
+    .cover-image{
+        background: url(../images/hero-medium@2x.webp) no-repeat;
+        background-size: cover;
+    }
+    .no-webp .cover-image{
+        background: url(../images/hero-medium@2x.jpg) no-repeat;
+       background-size: cover; 
+    }
+
+  
+  }
 
 @media screen and (min-width:1024px){
     .cover-image{
-        background: url(../images/hero-large.jpg) no-repeat;
+        background: url(../images/hero-large.webp) no-repeat;
         background-size: cover;
+    }
+    .no-webp .cover-image{
+        background: url(../images/hero-large.jpg) no-repeat;
+       background-size: cover; 
     }
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
+    .cover-image{
+        background: url(../images/hero-large@2x.webp) no-repeat;
+        background-size: cover;
+    }
+    .no-webp .cover-image{
+        background: url(../images/hero-large@2x.jpg) no-repeat;
+       background-size: cover; 
+    }
+
+
+}
 
 /* block */
 
@@ -285,13 +354,13 @@ width:100vw;
 }
 
 .nav__toggler{
-    opacity:0.5;
+    opacity:0.2;
     cursor:pointer;
     transition:box-shadow 0.15s;
 }
 
 .nav.collapsible--expanded .nav__toggler{
-    opacity:1;
+    opacity:0.5;
     box-shadow:0 0 3px #666;
     border-radius:5px;
 }
