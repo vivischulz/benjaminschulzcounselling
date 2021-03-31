@@ -206,8 +206,8 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .block__heading{
-    color:var(--color-primary)
-    margin:0;
+    color:var(--color-primary);
+    margin:0 auto;
 }
 
 @media screen and (min-width:768px){
@@ -217,12 +217,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     }
 }
 
-@media screen and (min-width:1024px){
-    .block{
-        --padding-vertical:4rem;
-        padding:var(--padding-vertical) 2rem;
-    }
-}
 
 /* hero */
 .hero{
@@ -231,6 +225,13 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 
 .hero__heading{
     text-transform: uppercase;   
+}
+
+@media screen and (min-width:1024px){
+    .hero-block{
+        --padding-vertical:8rem;
+        padding:var(--padding-vertical) 2rem;
+}
 }
 
 /* button */
@@ -413,12 +414,14 @@ padding:0.5rem 1rem;
 
 .profile-block{
     background-color: var(--color-brown);
+ 
 }
 
 .profile__image{
     width:100%;
-    padding:1rem;
     margin:0 auto;
+    padding:1rem;
+    
 }
 
 .profile__content{
@@ -431,6 +434,7 @@ padding:0.5rem 1rem;
 }
 
 
+
 @media screen and (min-width:1024px){
     .profile__image{
         padding:5rem;
@@ -440,3 +444,28 @@ padding:0.5rem 1rem;
         text-align:left;
     }
 }
+
+.profile-container{
+    position:relative;
+}
+
+.profile--style{
+    border:1px solid var(--color-secondary);
+    position: absolute;
+    top:20%;
+    left:20%;
+    z-index:1;
+}
+
+.profile--style-wraper{
+    width:75%;
+    height:85%;
+}
+
+.profile__image{
+    width:90%;
+    position: relative;
+    z-index: 2;
+}
+
+
