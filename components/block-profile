@@ -1,5 +1,5 @@
 <section>
-        <div class="block profile-block">
+        <div class="block profile--block">
             <article class="container grid grid--1x2">
                 <picture>
                     <source type="image/webp" srcset="images/profile@2x.webp 720w,

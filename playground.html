@@ -32,19 +32,60 @@
     
     <body>
    
-         <div class="container grid grid--1x2">
-            <div class="profile-container">
-                <picture>
-                    <source type="image/webp" srcset="images/profile@2x.webp 720w,
-                                                    images/profile.webp 360w"/>
-                    <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
-                                                    images/profile.jpg 360w"/>
-                    <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
-                    </picture>
-                 <div class="profile--style profile--style-wraper"></div>
+         <div class="block service--block">
+             <div class="container grid grid--1x2">
+                <div class="service__content">
+                    <h2 class="service__heading">services</h2>
+                    <section class="collapsible collapsible--expanded service__item">
+                        <header class="collapsible__header">
+                            <h3 class="collapsible__heading service__item__heading">Practice Areas </h3>
+                            <svg class="icon icon--white collapsible__chevron">
+                                <use xlink:href="images/sprite.svg#chevron"></use>
+                              </svg>
+                        </header>
+                    
+                        <div class="collapsible__content">
+                           <ul class="service__list">
+                               <li class="list">Anxiety</li>
+                               <li class="list">Burnout</li>
+                               <li class="list">Stress Management</li>
+                               <li class="list"></li>
+                               <li class="list"></li>
+                               <li class="list"></li>
+                               <li class="list"></li>
+                               <li class="list"></li>
+                           </ul>
+                        </div>
+                    </section>
+
+                    <section class="collapsible collapsible--expanded service__item">
+                        <header class="collapsible__header">
+                            <h3 class="collapsible__heading service__item__heading">Therapy Types </h3>
+                            <svg class="icon icon--white collapsible__chevron">
+                                <use xlink:href="images/sprite.svg#chevron"></use>
+                              </svg>
+                        </header>
+                    
+                        <div class="collapsible__content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloribus a autem! Quod, alias eius!
+                        </div>
+                    </section>
                 </div>
-         </div>
-    
+              
+                
+                
+                <div class="style-container">
+                    <picture>
+                        <source type="image/webp" srcset="images/service@2x.webp 720w,
+                                                        images/service.webp 360w"/>
+                        <source type="image/jpg" srcset="images/service@2x.jpg 720w,
+                                                        images/service.jpg 360w"/>
+                        <img class="service__image" src="images/service@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                        </picture>
+                     <div class="style style-wraper"></div>
+                    </div>
+             </div>
+      </div>
                      
 
                    

@@ -1,12 +1,10 @@
-  <div class="container grid grid--1x2">
-            <div class="profile-container">
-                <picture>
-                    <source type="image/webp" srcset="images/profile@2x.webp 720w,
-                                                    images/profile.webp 360w"/>
-                    <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
-                                                    images/profile.jpg 360w"/>
-                    <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
-                    </picture>
-                 <div class="profile--style profile--style-wraper"></div>
-                </div>
-         </div>
+   <div class="style-container">
+                    <picture>
+                        <source type="image/webp" srcset="images/profile@2x.webp 720w,
+                                                        images/profile.webp 360w"/>
+                        <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
+                                                        images/profile.jpg 360w"/>
+                        <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                        </picture>
+                     <div class="style style-wraper"></div>
+                    </div>
