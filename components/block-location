@@ -1,0 +1,28 @@
+<!--location-block-->
+    <section>
+        <div class="service__background location__background">
+            <div class="container block block__header dark">
+                <div class="right__heading-wrap left__heading-wrap">
+                    <h2 class="block__heading service__heading">Location</h2>
+                </div>
+                <div class="grid grid--1x2-desktop">
+                    <div class="dark location__body">
+                        <div class="strong">Benjamin Schulz Counselling</div>
+                        <p><span class="icon--pin"><i class="fas fa-map-pin"></i></span>
+                            8968 208st, unit 10, Langley, BC, V1M4C5</p>
+    
+                        <p><span><i class="fas fa-phone"></i></span>
+                            (778) 744-0934</p>
+    
+                        <p><span><i class="far fa-envelope"></i></span>
+                            benjaminschulzcounselling@gmail.com</p>
+                    </div>
+                    <iframe class="location__map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2608.8497752645476!2d-122.6449684!3d49.1654596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d343544af92b%3A0xa14ddebf32fb300b!2s8968%20208%20St%2C%20Langley%20City%2C%20BC%20V1M%204C5!5e0!3m2!1sen!2sca!4v1617477768395!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+                </div>
+    
+            </div>
+        </div>
+    </section>
