@@ -1,0 +1,54 @@
+<div class="block faq--block">
+            <div class="container grid grid--1x2">
+               <div class="faq__content">
+                   <h2 class="faq__heading">FAQ</h2>
+                   <section class="collapsible collapsible--expanded faq__item">
+                       <header class="collapsible__header">
+                           <h3 class="collapsible__heading service__item__heading">title1 </h3>
+                           <svg class="icon icon--white collapsible__chevron">
+                               <use xlink:href="images/sprite.svg#chevron"></use>
+                             </svg>
+                       </header>
+                   
+                       <div class="collapsible__content">
+                          <ul class="list__content">
+                              <li class="list">item1</li>
+                              <li class="list">item2</li>
+                              <li class="list">item3</li>
+                              <li class="list"></li>
+                              <li class="list"></li>
+                              <li class="list"></li>
+                              <li class="list"></li>
+                              <li class="list"></li>
+                          </ul>
+                       </div>
+                   </section>
+
+                   <section class="collapsible collapsible--expanded faq__item">
+                       <header class="collapsible__header">
+                           <h3 class="collapsible__heading faq__item__heading">title2</h3>
+                           <svg class="icon icon--white collapsible__chevron">
+                               <use xlink:href="images/sprite.svg#chevron"></use>
+                             </svg>
+                       </header>
+                   
+                       <div class="collapsible__content">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloribus a autem! Quod, alias eius!
+                       </div>
+                   </section>
+               </div>
+             
+               
+               
+               <div class="style-container">
+                   <picture>
+                       <source type="image/webp" srcset="images/faq@2x.webp 720w,
+                                                       images/faq.webp 360w"/>
+                       <source type="image/jpg" srcset="images/faq@2x.jpg 720w,
+                                                       images/faq.jpg 360w"/>
+                       <img class="faq__image" src="images/faq@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                       </picture>
+                    <div class="style style-wraper"></div>
+                   </div>
+            </div>
+     </div>  

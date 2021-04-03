@@ -3,11 +3,11 @@ html{
 }
 
 :root{
-    --color-primary:#F2EEEB;
+    --color-primary:#fff;
     --color-secondary:#262622;
     --color-accent:#BF6341;
---color-brown:#BF8F54;
-}
+    --color-brown:#BF8F54;
+} 
 
 *,
 *::after,
@@ -26,7 +26,7 @@ a{
 
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color:var(--color-secondary);
+    color:#fff;
     font-size:1.563rem;
     line-height:1.5;
     font-weight: 300;
@@ -36,8 +36,15 @@ h1,
 h2,
 h3{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    color:var(--color-secondary);
     margin-bottom: 1rem;
+}
+
+h1{
+    color:#fff;
+}
+
+h2,h3{
+    color:var(--color-secondary);
 }
 
 h1{
@@ -55,7 +62,7 @@ h3{
 }
 
 .lead-second{
-    font-size:1rem;
+    font-size:1.2rem;
     white-space: nowrap;
     text-align: center;
 }
@@ -78,7 +85,6 @@ h3{
     }
     .lead-second{
         font-size:1.8rem;
-      padding-top:5rem;
     }
 }
 
@@ -100,13 +106,12 @@ h3{
     }
     .lead-second{
         font-size:2.5rem;
-      padding-top:5rem;
     }
 }
 
 @media screen and (min-width:1024px){
     body{
-        font-size:2.2rem;
+        font-size:2.4rem;
     }
     h1{
         font-size:11rem;
@@ -122,7 +127,6 @@ h3{
     }
     .lead-second{
         font-size:3rem;
-      padding-top:6rem;
     }
 }
 
@@ -136,12 +140,10 @@ h3{
  
 }
 
-
 .no-webp .cover-image{
     background: url(../images/hero-small.jpg) no-repeat;
    background-size: cover; 
 }
-
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
@@ -175,12 +177,12 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
 }
   
   @media
-  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
-  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
-  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
-  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
-  only screen and (                min-resolution: 192dpi) and (min-width: 700px),
-  only screen and (                min-resolution: 2dppx)  and (min-width: 700px) { 
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 600px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 600px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 600px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 600px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 600px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 600px) { 
     .cover-image{
         background: url(../images/hero-medium@2x.webp) no-repeat;
         background-size: cover;
@@ -234,34 +236,27 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     text-align: center;
 }
 
-.block__heading{
-    color:var(--color-primary);
-    margin:0 auto;
-}
-
-@media screen and (min-width:768px){
-    .block{
-        --padding-vertical:13rem;
-        padding:var(--padding-vertical) 2rem;
-    }
-}
-
 
 /* hero */
-.hero{
-    color:#fff;
+.dark{
+    color:var(--color-secondary);
 }
 
 .hero__heading{
     text-transform: uppercase;   
 }
 
-@media screen and (min-width:1024px){
+.hero-block{
+    padding:2rem 2rem 6rem;
+}
+
+@media screen and (min-width:375px){
     .hero-block{
-        --padding-vertical:22rem;
-        padding:var(--padding-vertical) 2rem;
+        padding:10rem 2rem 10rem;
 }
 }
+
+
 
 /* button */
 
@@ -276,15 +271,11 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     margin:1rem 0;
     color:#fff;
     text-transform: uppercase;
- font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .btn:hover{
     background-color:#f2eeeb7a ;
-}
-
-.btn-hero{
-    margin-top:10rem;
 }
 
 @media screen and (min-width:600px){
@@ -305,9 +296,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     .btn{
         font-size:2.5rem;
     }
-    .btn-hero{
-        margin-top:15rem;
-    }
 }
 
 /* icon */
@@ -324,6 +312,10 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     fill:#fff;
 }
 
+.icon_fee{
+ font-size:3rem;
+padding-bottom:0.5rem;
+}
 
 /* callopsible */
 .collapsible__header{
@@ -359,12 +351,19 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     opacity:1;
 }
 
-/* nav */
+/* list */
 
 .list{
     list-style: none;
     padding-left:0;
 }
+
+.list__content{
+    margin-top:0;
+    padding-left:0;
+}
+
+/* nav */
 
 .nav{
     display:flex;
@@ -465,6 +464,15 @@ padding:1rem 1rem;
 .grid--1x2{
     grid-template-columns: repeat(2,1fr);
 }
+.grid--1x3{
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
+@media screen and (min-width:1024px){
+    .grid--1x3-desktop{
+        grid-template-columns: repeat(3,1fr);
+    }  
 }
 
 /* profile */
@@ -485,7 +493,7 @@ padding:1rem 1rem;
     text-align:center;
 }
 
-.profile__heading{
+.block__heading{
     margin:0;
 }
 
@@ -548,24 +556,24 @@ padding:1rem 1rem;
     
 }
 
-/* service */
-.service--block{
+/* faq */
+.faq--block{
     background-color: var(--color-accent); 
 }
 
-.service__image{
+.faq__image{
     width:80%;
     margin:0 auto;
     
 }
 
-.service__content{
+.faq__content{
     color:#fff;
     padding:2rem;
     text-align:left;
 }
 
-.service__heading{
+.faq__heading{
     margin:0;
     padding-bottom: 1.5rem;
     text-align: left;
@@ -573,31 +581,134 @@ padding:1rem 1rem;
     color:#fff;
 }
 
-.service__item{
+.faq__item{
     padding:1rem 0;
 }
 
-.service__item__heading{
+.faq__item__heading{
     color:#fff;
 }
 
 
-.service__image{
+.faq__image{
     width:80%;
     position: relative;
     z-index: 2;   
 }
 
-.service__list{
-    margin-top:0;
-    padding-left:0;
+
+
+@media screen and (min-width:1024px){
+    .faq__image{
+        padding:5rem;
+    } 
+    .faq__content{
+        padding:8rem 2rem;
+    }
+}
+
+/* service */
+
+.service-image{
+    background: url(../images/pot.jpg) no-repeat;
+    background-size: cover;
+    min-width:100%; 
+    min-height:200vh;
+    background-position: center center;
+background-attachment: fixed;
+ }
+
+.see-through{
+    background:transparent;
+    width:100%;
+    height:300px;
+}
+ .service__background{
+     background:var(--color-brown);
+     min-height:400px;
+ }
+
+ .service--list{
+     padding:0.5rem;
+     font-weight: 400;
+ }
+
+ .service__heading-wrap{
+     display: flex;
+     justify-content:center;
+     border-bottom: 1px solid var(--color-primary);
+     margin:0 2rem;
+    }
+
+.service__heading{
+ background-color: var(--color-primary);
+width:30rem;
+margin:0 0;
+}
+
+@media screen and (min-width:768px) {
+    .service__heading-wrap{
+        justify-content:flex-end;
+    }
+}
+
+
+/* fee */
+
+.fee__background{
+    background:var(--color-accent);
+}
+
+.fee__individual{
+    margin:5rem auto;
+    
+}
+
+table,
+td,
+th{
+    border:1px solid var(--color-primary);
+    border-collapse: collapse;
+    padding:2rem 6rem;
+    color:#fff;
+    font-weight: 300;
+}
+
+thead, tbody{
+    text-transform: uppercase;
+}
+
+.fee{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size:3rem;
+}
+
+.fee__GST{
+    font-size:1.2rem;
+    letter-spacing: 0.2rem;
+   
+}
+
+@media screen and (min-width:768px) { 
+    .fee__heading-wrap{
+        justify-content:center;
+    }
+
+    .fee{
+        font-size:2.2rem;
+    }
+
+    .fee__GST{
+        font-size:1.8rem;
+    }
 }
 
 @media screen and (min-width:1024px){
-    .service__image{
-        padding:5rem;
-    } 
-    .service__content{
-        padding:8rem 2rem;
+    .fee__heading-wrap{
+        justify-content:flex-start;
+    }
+    .fee{
+        font-size:3.2rem;
     }
 }

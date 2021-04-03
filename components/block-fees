@@ -1,0 +1,68 @@
+    <section>
+    <div class="see-through"></div>
+    <div class="service__background fee__background">
+        <div class="container block block__header dark">
+            <div class="service__heading-wrap fee__heading-wrap">
+                <h2 class="block__heading service__heading">Fees</h2>
+            </div>
+            <div class="grid grid--1x3-desktop">
+                <table class="fee__individual">
+                    <thead>
+                        <tr>
+                            <th><div class="icon_fee"><i class="far fa-user"></i></div> individual counselling</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th> 50 minutes</th>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th><span class="fee"> <sup>$</sup>140 </span><div class="fee__GST">( +GST, per session ) </div></th>
+                
+                        </tr>
+                    </tfoot>
+                </table>
+                <table class="fee__individual">
+                    <thead>
+                        <tr>
+                            <th><div class="icon_fee"><i class="far fa-heart"></i></div> couple counselling</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th> 50 minutes</th>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th><span class="fee"> <sup>$</sup>140 </span><div class="fee__GST">( +GST, per session ) </div></th>
+                
+                        </tr>
+                    </tfoot>
+                </table>
+                <table class="fee__individual">
+                    <thead>
+                        <tr>
+                            <th><div class="icon_fee"><i class="fas fa-home"></i></div> family counselling</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th> 50 minutes</th>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th><span class="fee"> <sup>$</sup>140 </span><div class="fee__GST">( +GST, per session ) </div></th>
+                
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+
+    </section>

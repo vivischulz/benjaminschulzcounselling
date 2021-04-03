@@ -1,54 +1,72 @@
- <div class="block service--block">
-             <div class="container grid grid--1x2">
-                <div class="service__content">
-                    <h2 class="service__heading">services</h2>
-                    <section class="collapsible collapsible--expanded service__item">
-                        <header class="collapsible__header">
-                            <h3 class="collapsible__heading service__item__heading">Practice Areas </h3>
-                            <svg class="icon icon--white collapsible__chevron">
-                                <use xlink:href="images/sprite.svg#chevron"></use>
-                              </svg>
-                        </header>
-                    
-                        <div class="collapsible__content">
-                           <ul class="service__list">
-                               <li class="list">Anxiety</li>
-                               <li class="list">Burnout</li>
-                               <li class="list">Stress Management</li>
-                               <li class="list"></li>
-                               <li class="list"></li>
-                               <li class="list"></li>
-                               <li class="list"></li>
-                               <li class="list"></li>
-                           </ul>
-                        </div>
-                    </section>
-
-                    <section class="collapsible collapsible--expanded service__item">
-                        <header class="collapsible__header">
-                            <h3 class="collapsible__heading service__item__heading">Therapy Types </h3>
-                            <svg class="icon icon--white collapsible__chevron">
-                                <use xlink:href="images/sprite.svg#chevron"></use>
-                              </svg>
-                        </header>
-                    
-                        <div class="collapsible__content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloribus a autem! Quod, alias eius!
-                        </div>
-                    </section>
-                </div>
-              
+    <section class="service-image">
+    <div class="see-through"></div>
+    <div class="service__background">
+        <div class="container block block__header dark">
+            <div class="service__heading-wrap">
+                <h2 class="block__heading service__heading">Service</h2>
+            </div>
+            <h3>Practice Area</h3>
+            <div class="grid grid--1x3">
                 
-                
-                <div class="style-container">
-                    <picture>
-                        <source type="image/webp" srcset="images/service@2x.webp 720w,
-                                                        images/service.webp 360w"/>
-                        <source type="image/jpg" srcset="images/service@2x.jpg 720w,
-                                                        images/service.jpg 360w"/>
-                        <img class="service__image" src="images/service@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
-                        </picture>
-                     <div class="style style-wraper"></div>
+                  <div>
+                      <ul class="list__content">
+                          <li class="list service--list">Anxiety</li>
+                          <li class="list service--list">Stress Management</li>
+                          <li class="list service--list">Relationship</li>
+                          <li class="list service--list">Parenting</li>
+                          <li class="list service--list">Pastpartum Depression</li>
+                          <li class="list service--list">Eating Disorders</li>
+                      </ul>
+                  </div>
+                  <div>
+                      <ul class="list__content">
+                          <li class="list service--list">Burnout</li>
+                          <li class="list service--list">Trauma</li>
+                          <li class="list service--list">Grif and Loss</li>
+                          <li class="list service--list">Depression</li>
+                          <li class="list service--list">Personal Growth</li>
+                          <li class="list service--list">Identity</li>
+                        </ul>
                     </div>
-             </div>
-      </div>
+                    <div>
+                      <ul class="list__content">
+                          <li class="list service--list">Suicidal Thinking</li>
+                          <li class="list service--list">Self-esteem</li>
+                          <li class="list service--list">Life Transitions</li>
+                          <li class="list service--list">Career Conselling</li>
+                          <li class="list service--list">Substance/ Recovery</li>
+                          <li class="list service--list"></li>
+                      </ul>
+                  </div>
+                    
+                    
+            </div>
+            <h3>Therapy Area</h3>
+            <div class="grid grid--1x3">
+                <div>
+                    <ul class="list__content">
+                        <li class="list service--list">Christian Counselling</li>
+                        <li class="list service--list">Coaching</li>
+                        <li class="list service--list">Cofnitive Behavioural (CBT)</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="list__content">
+                        <li class="list service--list">Dialectical(DBT)</li>
+                        <li class="list service--list">Emotionally Focused</li>
+                        <li class="list service--list">Interpersonal</li>
+                      </ul>
+                  </div>
+                  <div>
+                    <ul class="list__content">
+                        <li class="list service--list">Person-centered</li>
+                        <li class="list service--list">Trauma Focused</li>
+                        <li class="list service--list">Solution Focused Brief (SFBT)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </section>

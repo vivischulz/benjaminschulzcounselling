@@ -9,7 +9,7 @@
                     <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
                     </picture>
                 <div class="profile__content">
-                    <h2 class="profile__heading">About Dr. Benjamin Schulz</h2>
+                    <h2 class="block__heading">About Dr. Benjamin Schulz</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum cupiditate unde debitis
                         quod reiciendis voluptas, accusantium non quo officiis. Autem sapiente suscipit beatae accusamus
                         doloribus dolor iusto itaque.</p>
