@@ -17,6 +17,7 @@ html{
 
 a{
     text-decoration: none;
+    color:var(--color-secondary);
 }
 
 .container{
@@ -52,6 +53,7 @@ h1{
 }
 h2{
     font-size:3rem;
+    letter-spacing: 0.1rem;
 }
 h3{
     font-size:2.5rem;
@@ -69,6 +71,14 @@ h3{
 
 .strong{
     font-weight: 700;
+}
+
+.dark{
+    color:var(--color-secondary);
+}
+
+.light{
+    color:#fff;
 }
 
 @media screen and (min-width:600px){
@@ -242,9 +252,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 
 
 /* hero */
-.dark{
-    color:var(--color-secondary);
-}
 
 .hero__heading{
     text-transform: uppercase;   
@@ -645,17 +652,32 @@ margin:0 auto;
      font-weight: 400;
  }
 
- .right__heading-wrap{
+ .heading-wrap{
      display: flex;
      justify-content:center;
      border-bottom: 1px solid var(--color-primary);
      margin:0 2rem;
     }
 
-.service__heading{
+.heading-wrap-accent{
+    border-bottom: 1px solid var(--color-accent);
+}
+
+.heading-wrap-secondary{
+    border-bottom: 1px solid var(--color-secondary);
+}
+.primary__heading{
  background-color: var(--color-primary);
 width:30rem;
 margin:0 0;
+}
+
+.accent__heading{
+    background-color:var(--color-accent);
+}
+
+.secondary__heading{
+    background-color: var(--color-secondary);
 }
 
 @media screen and (min-width:768px) {
@@ -755,10 +777,33 @@ thead, tbody{
      width:100%;
 }
 
+.location__body a:hover,
+.location__body a:focus{
+    color:var(--color-accent);
+}
+
+.location__office-description{
+    color:#666;
+}
+
+@media screen and (max-width:300px){
+    .location__gmail{
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (min-width:1024px) {
    
     .location__body{
         text-align: left;
         margin-left:4rem;
     }
+}
+
+/* office */
+.office__image{
+    width:100%;
+    margin:0 auto;
+    padding:2rem;
+    
 }

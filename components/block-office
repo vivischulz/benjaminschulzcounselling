@@ -1,0 +1,28 @@
+  <!--office-block-->
+     <section>
+        <div class="service__background location__background">
+            <div class="container block block__header dark">
+                <div class="heading-wrap right__heading-wrap heading-wrap heading-wrap-secondary right__heading-wrap">
+                    <h2 class="block__heading primary__heading  secondary__heading light">Office</h2>
+                </div>
+                <div class="grid grid--1x2-desktop">
+                   
+                        <picture>
+                            <source type="image/webp" srcset="images/office@2x.webp 720w,
+                                                            images/office.webp 360w" />
+                            <source type="image/jpg" srcset="images/office@2x.jpg 720w,
+                                                            images/office.jpg 360w" />
+                            <img class="office__image" src="images/office@2x.jpg" alt="Dr. Benjamin Schulz Office Image">
+                        </picture>
+                       
+                    <div class="dark location__body">
+                        
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod quidem eveniet doloremque deserunt officia?</p>
+                        </div>
+                    
+    
+                </div>
+    
+            </div>
+        </div>
+    </section>

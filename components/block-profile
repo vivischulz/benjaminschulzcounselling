@@ -1,13 +1,18 @@
-<section>
+<!-- block-profile  -->
+
+    <section>
         <div class="block profile--block">
             <article class="container grid grid--1x2">
-                <picture>
-                    <source type="image/webp" srcset="images/profile@2x.webp 720w,
-                                                    images/profile.webp 360w"/>
-                    <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
-                                                    images/profile.jpg 360w"/>
-                    <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                <figure class="style-container">
+                    <picture>
+                        <source type="image/webp" srcset="images/profile@2x.webp 720w,
+                                                        images/profile.webp 360w" />
+                        <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
+                                                        images/profile.jpg 360w" />
+                        <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
                     </picture>
+                    <div class="style style-wraper"></div>
+                </figure>
                 <div class="profile__content">
                     <h2 class="block__heading">About Dr. Benjamin Schulz</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum cupiditate unde debitis

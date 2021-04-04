@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Benjamin Schulz Counselling</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/2b43a8c685.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/png">  
 </head>
 
 <body>
@@ -53,7 +54,7 @@
     <section>
         <div class="block profile--block">
             <article class="container grid grid--1x2">
-                <div class="style-container">
+                <figure class="style-container">
                     <picture>
                         <source type="image/webp" srcset="images/profile@2x.webp 720w,
                                                         images/profile.webp 360w" />
@@ -62,7 +63,7 @@
                         <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
                     </picture>
                     <div class="style style-wraper"></div>
-                </div>
+                </figure>
                 <div class="profile__content">
                     <h2 class="block__heading">About Dr. Benjamin Schulz</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum cupiditate unde debitis
@@ -80,8 +81,8 @@
         <div class="see-through"></div>
         <div class="service__background">
             <div class="container block block__header dark">
-                <div class="right__heading-wrap">
-                    <h2 class="block__heading service__heading">Service</h2>
+                <div class="heading-wrap right__heading-wrap">
+                    <h2 class="block__heading primary__heading">Service</h2>
                 </div>
                 <h3>Practice Area</h3>
                 <div class="grid grid--1x3">
@@ -154,8 +155,8 @@
         <div class="service__background fee__background">
             <div class="container block block__header dark">
                 <div class="fee--block">
-                    <div class="right__heading-wrap left__heading-wrap">
-                        <h2 class="block__heading service__heading">Fees</h2>
+                    <div class="heading-wrap right__heading-wrap left__heading-wrap">
+                        <h2 class="block__heading primary__heading">Fees</h2>
                     </div>
                     <div class="grid  grid--1x3-desktop">
                         <table class="fee__individual">
@@ -223,8 +224,8 @@
                         </table>
                     </div>
                 </div>
-                <div class="right__heading-wrap left__heading-wrap insurance__heading-wrap">
-                    <h2 class="block__heading service__heading">Insurance</h2>
+                <div class="heading-wrap right__heading-wrap left__heading-wrap insurance__heading-wrap">
+                    <h2 class="block__heading primary__heading">Insurance</h2>
                 </div>
                 <p class="insurance__content"><span class="strong">EXTENDED HEALTH INSURANCE BENEFITS:</span>
 
@@ -240,8 +241,8 @@
     <section>
         <div class="service__background location__background">
             <div class="container block block__header dark">
-                <div class="right__heading-wrap left__heading-wrap">
-                    <h2 class="block__heading service__heading">Location</h2>
+                <div class="heading-wrap heading-wrap heading-wrap-accent left__heading-wrap">
+                    <h2 class="block__heading primary__heading  accent__heading light">Location</h2>
                 </div>
                 <div class="grid grid--1x2-desktop">
                     <div class="dark location__body">
@@ -250,11 +251,12 @@
                             8968 208st, unit 10, Langley, BC, V1M4C5</p>
     
                         <p><span><i class="fas fa-phone"></i></span>
-                            (778) 744-0934</p>
+                            <a href="tel:+7787440934">(778) 744-0934</a></p>
     
                         <p><span><i class="far fa-envelope"></i></span>
-                            benjaminschulzcounselling@gmail.com</p>
-                    </div>
+                            <a class="location__gmail" href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Session Enquiry">benjaminschulzcounselling@gmail.com</a></p>
+                        <p class="location__office-description">( Our office is located just steps from visitor parking behind the second row of townhomes in Cambridge Court )</p>
+                        </div>
                     <iframe class="location__map"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2608.8497752645476!2d-122.6449684!3d49.1654596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d343544af92b%3A0xa14ddebf32fb300b!2s8968%20208%20St%2C%20Langley%20City%2C%20BC%20V1M%204C5!5e0!3m2!1sen!2sca!4v1617477768395!5m2!1sen!2sca"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -264,9 +266,38 @@
             </div>
         </div>
     </section>
+     <!--office-block-->
+     <section>
+        <div class="service__background location__background">
+            <div class="container block block__header dark">
+                <div class="heading-wrap right__heading-wrap heading-wrap heading-wrap-secondary right__heading-wrap">
+                    <h2 class="block__heading primary__heading  secondary__heading light">Office</h2>
+                </div>
+                <div class="grid grid--1x2-desktop">
+                   
+                        <picture>
+                            <source type="image/webp" srcset="images/office@2x.webp 720w,
+                                                            images/office.webp 360w" />
+                            <source type="image/jpg" srcset="images/office@2x.jpg 720w,
+                                                            images/office.jpg 360w" />
+                            <img class="office__image" src="images/office@2x.jpg" alt="Dr. Benjamin Schulz Office Image">
+                        </picture>
+                       
+                    <div class="dark location__body">
+                        
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod quidem eveniet doloremque deserunt officia?</p>
+                        </div>
+                    
+    
+                </div>
+    
+            </div>
+        </div>
+    </section>
 
     <script src="js/main.js"></script>
     <script src="js/webp.js"></script>
+    
 </body>
 
 </html>
