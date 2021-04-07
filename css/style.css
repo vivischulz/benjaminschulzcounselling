@@ -103,44 +103,31 @@ h3{
 }
 
 @media screen and (min-width:768px){
-    body{
-        font-size:2rem;
-    }
+  
     h1{
         font-size:7rem;
     }
-    h2{
-        font-size:3.998rem;
-    }
-    h3{
-        font-size:2.827rem;
-    }
-    .lead{
-        font-size: 2.4rem;
-    }
-    .lead-second{
-        font-size:2.5rem;
-    }
+   
 }
 
 @media screen and (min-width:1024px){
     body{
-        font-size:2.4rem;
+        font-size:2rem;
     }
     h1{
-        font-size:11rem;
+        font-size:10rem;
     }
     h2{
-        font-size:5.063rem;
+        font-size:4.5rem;
     }
     h3{
         font-size:3.375rem;
     }
     .lead{
-        font-size: 3.2rem;
+        font-size: 2.2rem;
     }
     .lead-second{
-        font-size:3rem;
+        font-size:2rem;
     }
 }
 
@@ -242,13 +229,14 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 /* block */
 
 .block{
-    --padding-vertical:8rem;
+    --padding-vertical:6rem;
     padding:var(--padding-vertical) 2rem;
 }
 
 .block__header{
     text-align: center;
 }
+
 
 
 /* hero */
@@ -264,6 +252,12 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 @media screen and (min-width:375px){
     .hero-block{
         padding:10rem 2rem 10rem;
+}
+}
+
+@media screen and (min-width:1024px){
+    .hero-block{
+        padding-top:0;
 }
 }
 
@@ -310,6 +304,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 /* icon */
+
 .icon{
     width:40px;
     height:40px;
@@ -331,6 +326,8 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
  font-size:3rem;
 padding-bottom:0.5rem;
 }
+
+
 
 /* callopsible */
 .collapsible__header{
@@ -380,6 +377,16 @@ padding-bottom:0.5rem;
 
 /* nav */
 
+.nav__brand{
+    padding-top: 0.5rem;
+    padding-left:1rem;
+}
+.nav__logo{
+    width:4rem;
+    height:4rem;
+    fill:var(--color-accent)
+}
+
 .nav{
     display:flex;
     justify-content: space-between;
@@ -419,24 +426,22 @@ background-color: #f2eeeb37;
     background-color: var(--color-accent);
 }
 
-.nav__brand{
-padding:1rem 1rem;
-}
+
 .nav__toggler{
-    opacity:0.5;
+    
     cursor:pointer;
-    transition:box-shadow 0.15s;
-  
+    transition:fill 0.15s;
+  fill:var(--color-accent);
 }
 
 .nav.collapsible--expanded .nav__toggler{
     opacity:1;
-    box-shadow:0 0 3px #666;
-    border-radius:5px;
-  
+    fill:var(--color-secondary);  
 }
 
 @media screen and (min-width:768px){
+
+
     .nav__toggler{
         display:none;
     }
@@ -666,6 +671,10 @@ margin:0 auto;
 .heading-wrap-secondary{
     border-bottom: 1px solid var(--color-secondary);
 }
+
+.heading-wrap-brown{
+    border-bottom: 1px solid var(--color-brown);
+}
 .primary__heading{
  background-color: var(--color-primary);
 width:30rem;
@@ -678,6 +687,10 @@ margin:0 0;
 
 .secondary__heading{
     background-color: var(--color-secondary);
+}
+
+.brown__heading{
+    background-color: var(--color-brown);
 }
 
 @media screen and (min-width:768px) {
@@ -804,6 +817,86 @@ thead, tbody{
 .office__image{
     width:100%;
     margin:0 auto;
-    padding:2rem;
+    padding:2rem; 
+}
+
+/* contact */
+input{
+    width:100%;
+}
+
+.form-contact{
+    color:var(--color-secondary);
+    margin:0 2rem;
+}
+
+textarea{
+    width:100%;
+   height:200px;
+   resize:none;
+   line-height: 1.5;
+}
+
+.form-btn-wraper{
+    display:flex;
+    justify-content: center;
+}
+
+.form-btn{
+    outline: 0;
+    border:0;
+    background-color: rgba(34,34,34,0.9);;
+    white-space: nowrap;
+    color:#fff;
+    padding:1.5rem 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.form-btn:hover{
+    background-color: var(--color-accent);
+}
+
+.form-control{
+    outline:0;
+    border:none;
+    border-bottom:1px solid #aeaeae;
+    letter-spacing: 1px;
+    color:#777;
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    padding: 1rem 0.5rem;
+}
+
+.form-control:focus{
+    border:1px solid var(--color-secondary);
+   
+}
+
+.form-control-message{
+    border:1px solid #aeaeae;
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.form-control-message:focus{
+    border:1px solid var(--color-secondary);
     
+}
+
+.form-group{
+    margin:1.5rem 0;
+}
+
+.form-grid{
+    display:grid;
+}
+
+@media screen and (min-width:768px){
+.form-grid--1x2{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.form-btn-wraper{
+    justify-content: flex-end;
+}
 }

@@ -20,8 +20,12 @@
 
         <!-- nav  -->
         <nav class="container nav collapsible nav-bottom-border dark">
-            <div class="nav__brand">brand</div>
-            <svg class="icon icon--sec nav__toggler">
+            <div class="nav__brand">  
+                <svg class="nav__logo">
+                    <use xlink:href="images/sprite.svg#logo"></use>
+                </svg>
+        </div>
+            <svg class="icon icon--secondary nav__toggler">
                 <use xlink:href="images/sprite.svg#menu"></use>
             </svg>
             <ul class="list nav__list collapsible__content">
@@ -293,6 +297,39 @@
     
             </div>
         </div>
+    </section>
+
+     <!--contact us-block-->
+    <section class="container block block__header">
+        <div class="heading-wrap heading-wrap heading-wrap-brown left__heading-wrap">
+            <h2 class="block__heading primary__heading  brown__heading light">Contact Us</h2>
+        </div>
+       
+        <form class="form-contact" action="mail.php" method="POST">
+        
+            <input class="form-control form-group" id="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required >
+        
+        
+            <div class="form-grid form-grid--1x2 form-group">
+        
+                    <input class="form-control" id="email" type="email" placeholder="Email*" minlength="5" maxlength="255" required>
+        
+        
+                    <input class="form-control" id="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
+        
+            </div>
+        
+        
+            <div>
+                <textarea class="form-control form-control-message form-group" name="message" id="message" placeholder="Message*" minlength="3" maxlength="500" required ></textarea>
+            </div>
+        
+            <div class="form-btn-wraper">
+                <button class="form-btn" type="submit">Send Message</button>
+            </div>
+        
+        
+            </form>
     </section>
 
     <script src="js/main.js"></script>

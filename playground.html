@@ -14,34 +14,35 @@
     <script src="https://kit.fontawesome.com/2b43a8c685.js" crossorigin="anonymous"></script>
 </head>
 
-<!--office-block-->
-<section>
-    <div class="service__background location__background">
-        <div class="container block block__header dark">
-            <div class="heading-wrap right__heading-wrap heading-wrap heading-wrap-secondary right__heading-wrap">
-                <h2 class="block__heading primary__heading  secondary__heading light">Office</h2>
-            </div>
-            <div class="grid grid--1x2-desktop">
-               
-                    <picture>
-                        <source type="image/webp" srcset="images/office@2x.webp 720w,
-                                                        images/office.webp 360w" />
-                        <source type="image/jpg" srcset="images/office@2x.jpg 720w,
-                                                        images/office.jpg 360w" />
-                        <img class="office__image" src="images/office@2x.jpg" alt="Dr. Benjamin Schulz Office Image">
-                    </picture>
-                   
-                <div class="dark location__body">
-                    
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod quidem eveniet doloremque deserunt officia?</p>
-                    </div>
-                
+<body>
 
-            </div>
+<form class="form-contact" action="mail.php" method="POST">
 
-        </div>
-    </div>
-</section>
+    
+<input class="form-control form-group" id="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required >
+
+
+<div class="form-grid form-grid--1x2 form-group">
+
+        <input class="form-control" id="email" type="email" placeholder="Email*" minlength="5" maxlength="255" required>
+
+
+        <input class="form-control" id="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
+
+</div>
+
+
+<div>
+    <textarea class="form-control form-control-message form-group" name="message" id="message" placeholder="Message*" minlength="3" maxlength="500" required ></textarea>
+</div>
+
+<div class="form-btn-wraper">
+    <button class="form-btn" type="submit">Send Message</button>
+</div>
+
+   
+</form>
+    
 
     <script src="js/main.js"></script>
     <script src="js/webp.js"></script>
