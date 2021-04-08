@@ -1,0 +1,18 @@
+<!--membership-->
+ <section class="container block block__header">
+    <div class="margin--block">
+        <div class="heading-wrap   heading-wrap-secondary left__heading-wrap">
+            <h2 class="block__heading primary__heading border__secondary__heading   dark">Membership</h2>
+        </div>
+        <div class="grid grid--1x2 merbership__body">
+            <div>
+                <!-- Professional verification provided by Psychology Today -->
+<a href="https://www.psychologytoday.com/profile/366222" class="sx-verified-seal"></a>
+<script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="12" data-id="366222" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
+<!-- End Verification -->
+            </div>
+        </div>
+       
+       
+    </div>
+</section>
