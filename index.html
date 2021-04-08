@@ -8,6 +8,7 @@
     <title>Benjamin Schulz Counselling</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@700&display=swap"
         rel="stylesheet">
@@ -16,8 +17,11 @@
 </head>
 
 <body>
+    
+    
     <section class="no-webp cover-image">
-
+    
+    <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         <!-- nav  -->
         <nav  class="container nav collapsible nav-bottom-border dark">
             <div class="nav__brand">  
@@ -25,14 +29,14 @@
                     <use xlink:href="images/sprite.svg#logo"></use>
                 </svg>
         </div>
-            <div class="nav__manu">
-                <svg class="icon icon--secondary nav__toggler">
+            <div>
+                <svg class="icon nav__toggler">
                     <use xlink:href="images/sprite.svg#menu"></use>
                 </svg>
             </div>
             <div>
-                <svg class="icon icon--secondary nav__toggler__close">
-                    <use xlink:href="images/sprite.svg#times"></use>
+                <svg class="icon  nav__toggler__close">
+                    <use xlink:href="images/sprite.svg#times-thin"></use>
                 </svg>
             </div>
 
@@ -58,16 +62,17 @@
             <p class="lead-second">— Canadian Certified Counsellor in Langley, BC —</p>
         </section>
 
-
     </section>
+
+
 
     <!-- block-profile  -->
 
     <section>
         <div class="block profile--block">
             <article class="container grid grid--1x2">
-                <figure class="style-container">
-                    <picture>
+                <figure data-aos="zoom-in-up" class="style-container">
+                    <picture >
                         <source type="image/webp" srcset="images/profile@2x.webp 720w,
                                                         images/profile.webp 360w" />
                         <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
@@ -83,13 +88,13 @@
                         doloribus dolor iusto itaque.</p>
                 </div>
             </article>
-
+        
         </div>
     </section>
 
     <!-- block-service -->
 
-    <section class="pot-image">
+    <section class="no-webp pot-image">
         <div class="see-through"></div>
         <div class="service__background">
             <div class="container block block__header dark">
@@ -171,7 +176,7 @@
                         <h2 class="block__heading primary__heading">Fees</h2>
                     </div>
                     <div class="grid  grid--1x3-desktop">
-                        <table class="fee__body">
+                        <table data-aos="zoom-in-up" class="fee__body">
                             <thead>
                                 <tr>
                                     <th>
@@ -195,7 +200,7 @@
                                 </tr>
                             </tfoot>
                         </table>
-                        <table class="fee__body">
+                        <table data-aos="fade-up" class="fee__body">
                             <thead>
                                 <tr>
                                     <th>
@@ -218,7 +223,7 @@
                                 </tr>
                             </tfoot>
                         </table>
-                        <table class="fee__body">
+                        <table data-aos="zoom-in-up" class="fee__body">
                             <thead>
                                 <tr>
                                     <th>
@@ -295,7 +300,7 @@
                             <a class="location__gmail" href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Session Enquiry">benjaminschulzcounselling@gmail.com</a></p>
                         <p class="location__office-description">( You will receive our office unit after you book your first session )</p>
                         </div>
-                    <iframe class="location__map"
+                    <iframe data-aos="zoom-in" class="location__map"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2608.8497752645476!2d-122.6449684!3d49.1654596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d343544af92b%3A0xa14ddebf32fb300b!2s8968%20208%20St%2C%20Langley%20City%2C%20BC%20V1M%204C5!5e0!3m2!1sen!2sca!4v1617477768395!5m2!1sen!2sca"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     
@@ -313,7 +318,7 @@
                 </div>
                 <div class="grid grid--1x2-desktop">
                    
-                        <picture>
+                        <picture data-aos="zoom-in">
                             <source type="image/webp" srcset="images/office@2x.webp 720w,
                                                             images/office.webp 360w" />
                             <source type="image/jpg" srcset="images/office@2x.jpg 720w,
@@ -339,7 +344,7 @@
             <div class="heading-wrap   heading-wrap-brown left__heading-wrap">
                 <h2 class="block__heading primary__heading  brown__heading light">Contact Us</h2>
             </div>
-            <p class="dark text-align--left">This from is for a general inquiry or the free 15 mintes counsltation inquiry. We are happy to help.</p>
+            <p class="dark text-align--left">Please provide a brief description of your presenting concerns and let us know if you would like to book a free fifteen minute phone consultation.</p>
             <form class="form-contact" action="mail.php" method="POST">
             
                 <input class="form-control form-group" id="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required >
@@ -368,9 +373,57 @@
         </div>
     </section>
 
+ <!--membership-->
+ <section class="container block block__header">
+    <div class="margin--block">
+        <div class="heading-wrap   heading-wrap-secondary left__heading-wrap">
+            <h2 class="block__heading primary__heading border__secondary__heading   dark">Membership</h2>
+        </div>
+        <div class="grid grid--1x2 merbership__body">
+            <div>
+                <!-- Professional verification provided by Psychology Today -->
+<a href="https://www.psychologytoday.com/profile/366222" class="sx-verified-seal"></a>
+<script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="12" data-id="366222" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
+<!-- End Verification -->
+            </div>
+        </div>
+       
+       
+    </div>
+</section>
+
+
+
     <script src="js/main.js"></script>
     <script src="js/webp.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("back-to-top");
     
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
 </body>
 
 </html>
