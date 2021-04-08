@@ -19,17 +19,25 @@
     <section class="no-webp cover-image">
 
         <!-- nav  -->
-        <nav class="container nav collapsible nav-bottom-border dark">
+        <nav  class="container nav collapsible nav-bottom-border dark">
             <div class="nav__brand">  
                 <svg class="nav__logo">
                     <use xlink:href="images/sprite.svg#logo"></use>
                 </svg>
         </div>
-            <svg class="icon icon--secondary nav__toggler">
-                <use xlink:href="images/sprite.svg#menu"></use>
-            </svg>
+            <div class="nav__manu">
+                <svg class="icon icon--secondary nav__toggler">
+                    <use xlink:href="images/sprite.svg#menu"></use>
+                </svg>
+            </div>
+            <div>
+                <svg class="icon icon--secondary nav__toggler__close">
+                    <use xlink:href="images/sprite.svg#times"></use>
+                </svg>
+            </div>
+
             <ul class="list nav__list collapsible__content">
-                <li class="nav__item"><a href="#">home</a></li>
+                <li class="nav__item"><a href="#">about</a></li>
                 <li class="nav__item"><a href="#">service</a></li>
                 <li class="nav__item"><a href="#">fees</a></li>
                 <li class="nav__item"><a href="#">location</a></li>
@@ -45,7 +53,7 @@
                     grief</p>
 
             </header>
-            <button class="btn">Book Your Session</button>
+            <a href="https://benjaminschulzcounselling.janeapp.com/#/staff_member/2/treatment/1" target="_blank"><button class="btn">Check Availability</button></a>
 
             <p class="lead-second">— Canadian Certified Counsellor in Langley, BC —</p>
         </section>
@@ -81,7 +89,7 @@
 
     <!-- block-service -->
 
-    <section class="service-image">
+    <section class="pot-image">
         <div class="see-through"></div>
         <div class="service__background">
             <div class="container block block__header dark">
@@ -155,7 +163,7 @@
 
 
 <!--block-fee-->
-        <div class="see-through"></div>
+       
         <div class="service__background fee__background">
             <div class="container block block__header dark">
                 <div class="fee--block">
@@ -163,11 +171,14 @@
                         <h2 class="block__heading primary__heading">Fees</h2>
                     </div>
                     <div class="grid  grid--1x3-desktop">
-                        <table class="fee__individual">
+                        <table class="fee__body">
                             <thead>
                                 <tr>
                                     <th>
-                                        <div class="icon--fee"><i class="far fa-user"></i></div> individual counselling
+                                        <div class="icon--fee"><i class="far fa-user"></i></div> 
+                                        <div class="strong">individual counselling</div>
+                                      <div class="fee__small text-transform-none"> ( In-Person/ Video Chat )</div>
+
                                     </th>
                                 </tr>
                             </thead>
@@ -179,16 +190,18 @@
                             <tfoot>
                                 <tr>
                                     <th><span class="fee"> <sup>$</sup>140 </span>
-                                        <div class="fee__GST">( +GST, per session ) </div>
+                                        <div class="fee__small">( +GST, per session ) </div>
                                     </th>
                                 </tr>
                             </tfoot>
                         </table>
-                        <table class="fee__individual">
+                        <table class="fee__body">
                             <thead>
                                 <tr>
                                     <th>
-                                        <div class="icon--fee"><i class="far fa-heart"></i></div> couple counselling
+                                        <div class="icon--fee"><i class="far fa-heart"></i></div> 
+                                        <div class="strong">couple counselling</div>
+                                        <div class="fee__small text-transform-none"> ( In-Person/ Video Chat )</div>
                                     </th>
                                 </tr>
                             </thead>
@@ -200,16 +213,18 @@
                             <tfoot>
                                 <tr>
                                     <th><span class="fee"> <sup>$</sup>140 </span>
-                                        <div class="fee__GST">( +GST, per session ) </div>
+                                        <div class="fee__small">( +GST, per session ) </div>
                                     </th>
                                 </tr>
                             </tfoot>
                         </table>
-                        <table class="fee__individual">
+                        <table class="fee__body">
                             <thead>
                                 <tr>
                                     <th>
-                                        <div class="icon--fee"><i class="fas fa-home"></i></div> family counselling
+                                        <div class="icon--fee"><i class="fas fa-home"></i></div> 
+                                        <div class="strong">family counselling</div>
+                                        <div class="fee__small text-transform-none"> ( In-Person/ Video Chat )</div>
                                     </th>
                                 </tr>
                             </thead>
@@ -221,13 +236,32 @@
                             <tfoot>
                                 <tr>
                                     <th><span class="fee"> <sup>$</sup>140 </span>
-                                        <div class="fee__GST">( +GST, per session ) </div>
+                                        <div class="fee__small">( +GST, per session ) </div>
                                     </th>
                                 </tr>
                             </tfoot>
                         </table>
                     </div>
+                    
+
+                    <div class="margin--block">
+                    <h3 class="text-align-tablet--left">Payment Policy</h3>
+                    <ul class="text-align--left">
+                        <li><span class="margin-bottom--small strong">In-Person Session:</span> Payment is due at the end of each session and can be made by cash, debit, Visa. ( If you are paying by cash please bring exact change. ) After payment is received, a receipt will be issued by email.</li>
+                        <li><span class="margin-bottom--small strong">Vedio Session:</span> Prepayment is required before vedio session. We accept payment through credit card. After you create your confidencial account through the booking system, you will be able to pay your session online.</li>
+                    </ul>
+                    
+                    </div>
+
+                    <div class="margin--block">
+                        <h3 class="text-align-tablet--left">Online Booking System Security</h3>
+                        <p class="text-align--left">We take privacy and security very seriously. Our online booking System is HIPAA ( Health Insurance Portability and Accountability Act ) Complaint, as well as PCI ( Payment Card Industry Data Security Standard ) Compliant. We use the same level of security as your bank to transfer data, securing your privacy.</p>
+                        
+                        </div>
+
+
                 </div>
+                
                 <div class="heading-wrap right__heading-wrap left__heading-wrap insurance__heading-wrap">
                     <h2 class="block__heading primary__heading">Insurance</h2>
                 </div>
@@ -252,14 +286,14 @@
                     <div class="dark location__body">
                         <div class="strong">Benjamin Schulz Counselling</div>
                         <p><span class="icon--pin"><i class="fas fa-map-pin"></i></span>
-                            8968 208st, unit 10, Langley, BC, V1M4C5</p>
+                            8968 208st, Langley, BC, V1M4C5</p>
     
                         <p><span><i class="fas fa-phone"></i></span>
                             <a href="tel:+7787440934">(778) 744-0934</a></p>
     
                         <p><span><i class="far fa-envelope"></i></span>
                             <a class="location__gmail" href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Session Enquiry">benjaminschulzcounselling@gmail.com</a></p>
-                        <p class="location__office-description">( Our office is located just steps from visitor parking behind the second row of townhomes in Cambridge Court )</p>
+                        <p class="location__office-description">( You will receive our office unit after you book your first session )</p>
                         </div>
                     <iframe class="location__map"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2608.8497752645476!2d-122.6449684!3d49.1654596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d343544af92b%3A0xa14ddebf32fb300b!2s8968%20208%20St%2C%20Langley%20City%2C%20BC%20V1M%204C5!5e0!3m2!1sen!2sca!4v1617477768395!5m2!1sen!2sca"
@@ -301,35 +335,37 @@
 
      <!--contact us-block-->
     <section class="container block block__header">
-        <div class="heading-wrap heading-wrap heading-wrap-brown left__heading-wrap">
-            <h2 class="block__heading primary__heading  brown__heading light">Contact Us</h2>
+        <div class="margin--block">
+            <div class="heading-wrap   heading-wrap-brown left__heading-wrap">
+                <h2 class="block__heading primary__heading  brown__heading light">Contact Us</h2>
+            </div>
+            <p class="dark text-align--left">This from is for a general inquiry or the free 15 mintes counsltation inquiry. We are happy to help.</p>
+            <form class="form-contact" action="mail.php" method="POST">
+            
+                <input class="form-control form-group" id="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required >
+            
+            
+                <div class="form-grid form-grid--1x2 form-group">
+            
+                        <input class="form-control" id="email" type="email" placeholder="Email*" minlength="5" maxlength="255" required>
+            
+            
+                        <input class="form-control" id="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
+            
+                </div>
+            
+            
+                <div>
+                    <textarea class="form-control form-control-message form-group" name="message" id="message" placeholder="Message*" minlength="3" maxlength="500" required ></textarea>
+                </div>
+            
+                <div class="form-btn-wraper">
+                    <button class="form-btn" type="submit">Send Message</button>
+                </div>
+            
+            
+                </form>
         </div>
-       
-        <form class="form-contact" action="mail.php" method="POST">
-        
-            <input class="form-control form-group" id="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required >
-        
-        
-            <div class="form-grid form-grid--1x2 form-group">
-        
-                    <input class="form-control" id="email" type="email" placeholder="Email*" minlength="5" maxlength="255" required>
-        
-        
-                    <input class="form-control" id="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
-        
-            </div>
-        
-        
-            <div>
-                <textarea class="form-control form-control-message form-group" name="message" id="message" placeholder="Message*" minlength="3" maxlength="500" required ></textarea>
-            </div>
-        
-            <div class="form-btn-wraper">
-                <button class="form-btn" type="submit">Send Message</button>
-            </div>
-        
-        
-            </form>
     </section>
 
     <script src="js/main.js"></script>

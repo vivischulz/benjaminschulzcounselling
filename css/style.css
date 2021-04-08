@@ -67,6 +67,7 @@ h3{
     font-size:1.2rem;
     white-space: nowrap;
     text-align: center;
+    margin:2rem auto;
 }
 
 .strong{
@@ -99,6 +100,7 @@ h3{
     }
     .lead-second{
         font-size:1.8rem;
+        letter-spacing: 1px;
     }
 }
 
@@ -128,6 +130,7 @@ h3{
     }
     .lead-second{
         font-size:2rem;
+        letter-spacing: 2px;
     }
 }
 
@@ -237,7 +240,26 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     text-align: center;
 }
 
+/* margin */
 
+.margin--block{
+    margin:0 2rem;
+  }
+  .margin-bottom--small{
+    margin-bottom:1.5rem;
+}
+
+/* text-align */
+
+.text-align--left{
+  text-align:left;
+}  
+
+@media screen and (min-width:768px) {
+   .text-align-tablet--left{
+    text-align:left;
+}  
+}
 
 /* hero */
 
@@ -249,6 +271,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     padding:2rem 2rem 6rem;
 }
 
+
 @media screen and (min-width:375px){
     .hero-block{
         padding:10rem 2rem 10rem;
@@ -257,7 +280,13 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 
 @media screen and (min-width:1024px){
     .hero-block{
-        padding-top:0;
+        padding:20rem 2rem;
+}
+}
+
+@media screen and (min-width:1300px){
+    .hero-block{
+        padding:6rem 2rem;
 }
 }
 
@@ -426,17 +455,30 @@ background-color: #f2eeeb37;
     background-color: var(--color-accent);
 }
 
-
 .nav__toggler{
-    
+    opacity:1;
     cursor:pointer;
-    transition:fill 0.15s;
-  fill:var(--color-accent);
+  position:absolute;
+  top:2px;
+  right:0;
+fill:var(--color-accent); 
+  transition:all 0.15s;
+}
+
+.nav__toggler__close{
+    opacity:0;
+   width:40px;
+   fill:var(--color-accent);
 }
 
 .nav.collapsible--expanded .nav__toggler{
-    opacity:1;
-    fill:var(--color-secondary);  
+    opacity:0; 
+    fill:var(--color-secondary);
+}
+.nav.collapsible--expanded .nav__toggler__close{
+    opacity:1; 
+    fill:(var(--color-secondary));
+    
 }
 
 @media screen and (min-width:768px){
@@ -632,8 +674,8 @@ background-color: #f2eeeb37;
 
 /* service */
 
-.service-image{
-    background: url(../images/pot.jpg) no-repeat;
+.pot-image{
+    background: url(../images/pot-small.webp) no-repeat;
     background-size: cover;
     width:100%; 
     min-height:100vh;
@@ -641,6 +683,115 @@ background-color: #f2eeeb37;
 background-attachment: fixed;
 margin:0 auto;
  }
+
+ .no-webp .pot-image{
+    background: url(../images/pot-small.jpg) no-repeat;
+   background-size: cover; 
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
+
+    .pot-image{
+        background: url(../images/pot-small@2x.webp) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+     }
+     
+     .no-webp .pot-image{
+         background: url(../images/pot-small@2x.jpg) no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        background-attachment: fixed;
+     }
+
+}
+
+@media screen and (min-width:768px){
+    .pot-image{
+        background: url(../images/pot-medium.webp) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .no-webp .pot-image{
+        background: url(../images/pot-medium.jpg) no-repeat;
+       background-size: cover; 
+       background-position: center center;
+       background-attachment: fixed;
+    }
+}
+  
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 600px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 600px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 600px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 600px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 600px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 600px) { 
+    .pot-image{
+        background: url(../images/pot-medium@2x.webp) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .no-webp .pot-image{
+        background: url(../images/pot-medium@2x.jpg) no-repeat;
+       background-size: cover; 
+       background-position: center center;
+       background-attachment: fixed;
+    }
+
+  
+  }
+
+@media screen and (min-width:1024px){
+    .pot-image{
+        background: url(../images/pot-large.webp) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .no-webp .cover-image{
+        background: url(../images/pot-large.jpg) no-repeat;
+       background-size: cover; 
+       background-position: center center;
+       background-attachment: fixed;
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
+    .pot-image{
+        background: url(../images/pot-large@2x.webp) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .no-webp .pot-image{
+        background: url(../images/pot-large@2x.jpg) no-repeat;
+       background-size: cover; 
+       background-position: center center;
+       background-attachment: fixed;
+    }
+
+
+}
+
 
 .see-through{
     background:transparent;
@@ -661,7 +812,6 @@ margin:0 auto;
      display: flex;
      justify-content:center;
      border-bottom: 1px solid var(--color-primary);
-     margin:0 2rem;
     }
 
 .heading-wrap-accent{
@@ -710,7 +860,7 @@ margin:0 0;
     padding-bottom: 5rem;
 }
 
-.fee__individual{
+.fee__body{
     margin:5rem auto;
     
 }
@@ -735,12 +885,16 @@ thead, tbody{
     font-size:3rem;
 }
 
-.fee__GST{
+.fee__small{
     font-size:1.2rem;
-    letter-spacing: 0.2rem;
-   
+    letter-spacing: 0.2rem;   
+}
+.text-transform-none{
+text-transform: none;
 }
 
+
+/* insurance */
 .insurance__content{
     padding:1.5rem 2rem;
 }
@@ -754,7 +908,7 @@ thead, tbody{
         font-size:2.2rem;
     }
 
-    .fee__GST{
+    .fee__small{
         font-size:1.8rem;
     }
 }
@@ -827,7 +981,6 @@ input{
 
 .form-contact{
     color:var(--color-secondary);
-    margin:0 2rem;
 }
 
 textarea{
