@@ -1,8 +1,7 @@
 {
   "devDependencies": {
     "cssnano": "^5.0.5",
-    "parcel": "^2.0.0-beta.2",
-    "parcel-bundler": "^1.12.4",
+    "parcel-bundler": "^1.12.3",
     "postcss": "^8.3.0"
   },
   "name": "BenjaminSchulzCounselling",
