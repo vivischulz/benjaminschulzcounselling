@@ -1,13 +1,14 @@
 {
   "devDependencies": {
     "cssnano": "^5.0.5",
-    "parcel-bundler": "^1.12.3",
-    "postcss": "^8.3.0"
+    "parcel": "^1.12.3"
   },
   "name": "BenjaminSchulzCounselling",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "postcss": "^8.2.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
