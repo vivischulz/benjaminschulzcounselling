@@ -309,13 +309,13 @@ z-index: 1000;
 
 @media screen and (min-width:1024px){
     .hero-block{
-        padding:20rem 2rem;
+        padding:15rem 2rem;
 }
 }
 
 @media screen and (min-width:1300px){
     .hero-block{
-        padding:6rem 2rem;
+        padding:0 2rem 6rem;
 }
 }
 
@@ -1125,6 +1125,7 @@ textarea{
 
 .ccpa_logo__image{
      max-width:250px;
+     width:100%;
 }
 
 .membership-wrap{
