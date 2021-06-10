@@ -440,7 +440,6 @@ padding-bottom:0.5rem;
 .nav__logo{
     width:4rem;
     height:4rem;
-    fill:var(--color-accent)
 }
 
 .nav{
@@ -488,6 +487,7 @@ background-color: #f2eeeb37;
   position:absolute;
   top:2px;
   right:0;
+  margin:0.2rem 0.8rem 0 ;
 fill:var(--color-accent); 
   transition:all 0.15s;
 }
@@ -495,7 +495,7 @@ fill:var(--color-accent);
 .nav__toggler__close{
     opacity:0;
    width: 25px;
-   margin:0 0.8rem;
+   margin:0.8rem 1.6rem 0 ;
    fill:#fff;
 }
 
