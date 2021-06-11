@@ -5,7 +5,7 @@
   },
   "name": "BenjaminSchulzCounselling",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.html",
   "dependencies": {
     "postcss": "^8.2.7"
   },
