@@ -1,0 +1,3 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _mainJs = require("js/main.js");
+var _mainJsDefault = parcelHelpers.interopDefault(_mainJs);
