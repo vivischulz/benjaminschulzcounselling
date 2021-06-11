@@ -360,20 +360,22 @@
                 </div>
                 <p class="dark text-align--left">Please provide a brief description of your presenting concerns and let us
                     know if you would like to book a free fifteen minute phone consultation.</p>
-                <form class="form-contact" id="contact-form" action="contact-form-handler.php" method="POST">
+                <form class="form-contact" action="mail.php" method="post">
                     <input class="form-control form-group" name="name" type="text" placeholder="Name*" minlength="1"
                         maxlength="100" required>
                     <div class="form-grid form-grid--1x2 form-group">
-                        <input class="form-control" name="email" type="email" placeholder="Email*" minlength="5"
+                        <input class="form-control" name="mail" type="email" placeholder="Email*" minlength="5"
                             maxlength="255" required>
                         <input class="form-control" name="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
                     </div>
+                    <input class="form-control form-group" name="Subject" type="text" placeholder="Subject" minlength="1"
+                        maxlength="100">
                     <div>
                         <textarea class="form-control form-control-message form-group" name="message" 
                             placeholder="Message*" minlength="3" maxlength="500" required></textarea>
                     </div>
                     <div class="form-btn-wraper">
-                        <input class="form-btn" type="submit" value="SEND MESSAGE">
+                        <button class="form-btn" type="submit" name="submit">send message</button>
                     </div>
                 </form>
             </div>
