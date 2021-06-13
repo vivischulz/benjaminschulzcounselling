@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Schulz Counselling</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="0e3a34e76ed1ff2622b6e8cab199c4d6">
+    <link rel="stylesheet" href="f89a749b4ffc8ed6ed855bb666bc286b">
+    <link rel="stylesheet" href="fba6bf13ff8753ba70ad04c2b5d08f25">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="2d9dc0b93f7e44b1c1ec6d1612b43811" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/2b43a8c685.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+    <script src="6caec787bd19789495b283f45ce5655f" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="c752848c5a45e77c3d938c038fb7af74" type="image/png">
 </head>
 
 <body>
@@ -28,17 +27,17 @@
             <nav class="container nav collapsible nav-bottom-border dark">
                 <div class="nav__brand">
                     <div class="nav__logo">
-                        <a href="index.html"><img src="images/logo.svg" alt="Benjamin Schulz Counselling Logo"/></a>
+                        <a href="33edaf6d12d13fd3397234e18ac8a5e2"><img src="f927f0bc0e37708c44da9b0dcd287609" alt="Benjamin Schulz Counselling Logo"></a>
                     </div>
                 </div>
                 <div>
                     <div class="icon nav__toggler">
-                        <img src="images/menu.svg" alt="Menu"/>
+                        <img src="55d16657808bb403b8ede1e3ce879b93" alt="Menu">
                     </div>
                 </div>
                 <div>
                     <div class="icon nav__toggler__close">
-                        <img src="images/times.svg" alt="Close"/>
+                        <img src="488da787ede749ce0c00bfc5a7e7f46c" alt="Close">
                     </div>
                 </div>
                 <ul class="list nav__list collapsible__content">
@@ -59,12 +58,11 @@
                     <p class="lead">Clinical counselling specializing in anxiety, panic attacks, depression, stress, and
                         grief</p>
                 </header>
-                <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Inquiry" target="_blank"><button
-                        class="btn">Check Availability</button></a>
+                <a href="1047eaa0830be0f25076dfaaf606735e" target="_blank"><button class="btn">Check Availability</button></a>
                 <p class="lead-second">— Canadian Certified Counsellor in Langley, BC —</p>
             </section>
             
-                </section>
+                </main></section>
             
             
             
@@ -75,16 +73,14 @@
                 <article class="container grid grid--1x2">
                     <figure data-aos="zoom-in-up" class="style-container">
                         <picture>
-                            <source type="image/webp" srcset="images/profile@2x.webp 720w,
-                                                            images/profile.webp 360w" />
-                            <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
-                                                            images/profile.jpg 360w" />
-                            <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                            <source type="image/webp" srcset="35eb74103ca585bfb87eca9d011ab4a2 720w,3b805ced30416184ab324c5504061345 360w">
+                            <source type="image/jpg" srcset="bcf9d11a5ff55123d931769b990fa9c8 720w,5fb406812894d0b11a43b90a35178122 360w">
+                            <img class="profile__image" src="bcf9d11a5ff55123d931769b990fa9c8" alt="Dr. Benjamin Schulz Profile Image">
                         </picture>
                         <div class="style style-wraper"></div>
                     </figure>
                     <div class="profile__content">
-                        <h2 class="block__heading" >About Dr. Benjamin Schulz</h2>
+                        <h2 class="block__heading">About Dr. Benjamin Schulz</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum cupiditate unde debitis
                             quod reiciendis voluptas, accusantium non quo officiis. Autem sapiente suscipit beatae accusamus
                             doloribus dolor iusto itaque.</p>
@@ -98,7 +94,7 @@
             <div class="see-through container block block__header">
                 <div data-aos="fade-up">
                     
-                    <img src="images/quotes.svg" alt="Benjamin Schulz Counselling Logo"/>
+                    <img src="4843c201a667800a992d89b968261b4f" alt="Benjamin Schulz Counselling Logo">
                     
                     <h4 class="light">You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, ‘I lived through this horror. I can take the next thing that comes along.’</h4>
                     <h4 class="accent bold">-Eleanor Roosevelt</h4>
@@ -177,7 +173,7 @@
                             <h2 class="block__heading primary__heading">Fees</h2>
                         </div>
                         <div class="grid  grid--1x3-desktop">
-                            <table  class="fee__body">
+                            <table class="fee__body">
                                 <thead>
                                     <tr>
                                         <th>
@@ -202,7 +198,7 @@
                                 <tfoot>
                                     <tr>
                                         <th class="leran-more-wrap">
-                                            <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Inquiry" target="_blank">
+                                            <a href="1047eaa0830be0f25076dfaaf606735e" target="_blank">
                                             <div class="fee__learn-more fee__small">Learn More</div>
                                             </a>
                                     </th>
@@ -234,14 +230,14 @@
                                 <tfoot>
                                     <tr>
                                         <th class="leran-more-wrap">
-                                            <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Inquiry" target="_blank">
+                                            <a href="1047eaa0830be0f25076dfaaf606735e" target="_blank">
                                             <div class="fee__learn-more fee__small">Learn More</div>
                                             </a>
                                     </th>
                                     </tr>
                                 </tfoot>
                             </table>
-                            <table  class="fee__body">
+                            <table class="fee__body">
                                 <thead>
                                     <tr>
                                         <th>
@@ -266,7 +262,7 @@
                                 <tfoot>
                                     <tr>
                                         <th class="leran-more-wrap">
-                                            <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Inquiry" target="_blank">
+                                            <a href="1047eaa0830be0f25076dfaaf606735e" target="_blank">
                                             <div class="fee__learn-more fee__small">Learn More</div>
                                             </a>
                                     </th>
@@ -323,15 +319,12 @@
                                 <a href="tel:+7787440934">(778) 744-0934</a>
                             </p>
                             <p><span><i class="far fa-envelope"></i></span>
-                                <a class="location__gmail"
-                                    href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling Session Enquiry">benjaminschulzcounselling@gmail.com</a>
+                                <a class="location__gmail" href="3f479d2ab7cdb242e2afedba747525bd">benjaminschulzcounselling@gmail.com</a>
                             </p>
                             <p class="location__office-description">( You will receive our office unit after you book your
                                 first session )</p>
                         </div>
-                        <iframe data-aos="zoom-in" class="location__map"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2608.8497752645476!2d-122.6449684!3d49.1654596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d343544af92b%3A0xa14ddebf32fb300b!2s8968%20208%20St%2C%20Langley%20City%2C%20BC%20V1M%204C5!5e0!3m2!1sen!2sca!4v1617477768395!5m2!1sen!2sca"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe data-aos="zoom-in" class="location__map" src="92b775be3fb4882a523923680ec92f83" width="600" height="450" style="2f8eb921573622171300c01cc09a105c" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -345,11 +338,9 @@
                     </div>
                     <div class="grid grid--1x2-desktop">
                         <picture data-aos="zoom-in">
-                            <source type="image/webp" srcset="images/office@2x.webp 720w,
-                                                                images/office.webp 360w" />
-                            <source type="image/jpg" srcset="images/office@2x.jpg 720w,
-                                                                images/office.jpg 360w" />
-                            <img class="office__image" src="images/office@2x.jpg" alt="Dr. Benjamin Schulz Office Image">
+                            <source type="image/webp" srcset="2c54036aa06ad7241a84c2d8100cda0a 720w,d020230a149a3f8241666e7b0ce0aea1 360w">
+                            <source type="image/jpg" srcset="31119aafeaa70b7462dfd6c4a55f95e8 720w,aa7464cfc860616141579233b6b729da 360w">
+                            <img class="office__image" src="31119aafeaa70b7462dfd6c4a55f95e8" alt="Dr. Benjamin Schulz Office Image">
                         </picture>
                         <div class="dark location__body">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod quidem eveniet
@@ -369,18 +360,14 @@
                 <p class="dark text-align--left">Please provide a brief description of your presenting concerns and let us
                     know if you would like to book a free fifteen minute phone consultation.</p>
                 <form class="form-contact" action="https://formspree.io/f/xwkablkz" method="POST">
-                    <input class="form-control form-group" name="name" type="text" placeholder="Name*" minlength="1"
-                        maxlength="100" required>
+                    <input class="form-control form-group" name="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required="">
                     <div class="form-grid form-grid--1x2 form-group">
-                        <input class="form-control" name="mail" type="email" placeholder="Email*" minlength="5"
-                            maxlength="255" required>
+                        <input class="form-control" name="mail" type="email" placeholder="Email*" minlength="5" maxlength="255" required="">
                         <input class="form-control" name="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
                     </div>
-                    <input class="form-control form-group" name="Subject" type="text" placeholder="Subject" minlength="1"
-                        maxlength="100">
+                    <input class="form-control form-group" name="Subject" type="text" placeholder="Subject" minlength="1" maxlength="100">
                     <div>
-                        <textarea class="form-control form-control-message form-group" name="message" 
-                            placeholder="Message*" minlength="3" maxlength="500" required></textarea>
+                        <textarea class="form-control form-control-message form-group" name="message" placeholder="Message*" minlength="3" maxlength="500" required=""></textarea>
                     </div>
                     <div class="form-btn-wraper">
                         <button class="form-btn" type="submit" name="submit">send message</button>
@@ -390,7 +377,7 @@
                 </section>
 
                 
-        </main>
+        
 
     <!--membership-->
     <aside class="container block block__header">
@@ -401,20 +388,16 @@
             <div class="membership__body">
                 <div class="membership-wrap">
                     <!-- Professional verification provided by Psychology Today -->
-                    <a href="https://www.psychologytoday.com/profile/366222" class="sx-verified-seal"></a>
-                    <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js"
-                        data-badge="12" data-id="366222"
-                        data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
+                    <a href="3d8e27f7bd0c91d4e2cb76e2ca6aac69" class="sx-verified-seal"></a>
+                    <script type="text/javascript" src="6b4d92960995e8c49a121c0f490ca82f" data-badge="12" data-id="366222" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
                     <!-- End Verification -->
                 </div>
 
                 <div class="membership-wrap">
-                    <picture >
-                        <source type="image/webp" srcset="images/ccpa_logo@2x.webp 720w,
-                                                        images/ccpa_logo.webp 360w" />
-                        <source type="image/jpg" srcset="images/ccpa_logo@2x.jpg 720w,
-                                                        images/ccpa_logo.jpg 360w" />
-                        <a href="https://www.ccpa-accp.ca/" target="_blank"><img class="ccpa_logo__image" src="images/ccpa_logo.jpg" alt="Canadian Counselling and Psychotherapy Association Logo"></a>
+                    <picture>
+                        <source type="image/webp" srcset="b9458b428f107288f9bfc1529320a53f 720w,624a1a3faffd5ab5cfb8d170c9a1d98b 360w">
+                        <source type="image/jpg" srcset="1a1127da27c0009e49c1fd1bde73be8c 720w,841cebc12fccad8d3433c3dfd6f253a5 360w">
+                        <a href="9c0beefa97a5f7691b748af8c7499a50" target="_blank"><img class="ccpa_logo__image" src="841cebc12fccad8d3433c3dfd6f253a5" alt="Canadian Counselling and Psychotherapy Association Logo"></a>
                     </picture>
 
                 </div>
@@ -426,14 +409,14 @@
 
 
 
-    <script src="js/main.js"></script>
-    <script src="js/webp.js"></script>
+    <script src="83721c4cb12039c9216b7f86584866ce"></script>
+    <script src="a685ec2fc4ddf2ea332c46fe9e79ca56"></script>
     
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
+    <script src="f4943121576a598caf17c7d29ae039ad"></script>
+    <script data-parcel-key="aefcbfab33d49beea5019d545ff3e4e1">
         AOS.init();
     </script>
-<script>
+<script data-parcel-key="53dec989b83c6352ff3508ffd9831de8">
         //Get the button
 var mybutton = document.getElementById("back-to-top");
 
