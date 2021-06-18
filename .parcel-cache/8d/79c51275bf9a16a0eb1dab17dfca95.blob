@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Schulz Counselling</title>
     <meta name="description" content="Benjamin Schulz Counselling in Langley BC provides therapy and counselling for families and teenagers, including marriage counselling, grief counselling, anxiety counselling and more. Book a call with Dr. Schulz Registered Clinical Counsellor today.">
-    <link rel="canonical" href="https://benjaminschulzcounselling.netlify.app/">
+    <link rel="canonical" href="933e99a3e12c6f6389d5e22ef0871872">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Benjamin Schulz Counselling | Counselling in Langley BC">
@@ -19,15 +19,14 @@
     <meta name="twitter:title" content="Benjamin Schulz Counselling">
     <meta name="twitter:label1" content="Est. reading time">
     <meta name="twitter:data1" content="23 minutes">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="0e3a34e76ed1ff2622b6e8cab199c4d6">
+    <link rel="stylesheet" href="f89a749b4ffc8ed6ed855bb666bc286b">
+    <link rel="stylesheet" href="fba6bf13ff8753ba70ad04c2b5d08f25">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="2d9dc0b93f7e44b1c1ec6d1612b43811" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/2b43a8c685.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+    <script src="6caec787bd19789495b283f45ce5655f" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="c752848c5a45e77c3d938c038fb7af74" type="image/png">
 </head>
 
 <body>
@@ -42,17 +41,17 @@
             <nav class="container nav collapsible nav-bottom-border dark">
                 <div class="nav__brand">
                     <div class="nav__logo">
-                        <a href="index.html"><img src="images/logo.svg" alt="Benjamin Schulz Counselling Logo"/></a>
+                        <a href="33edaf6d12d13fd3397234e18ac8a5e2"><img src="f927f0bc0e37708c44da9b0dcd287609" alt="Benjamin Schulz Counselling Logo"></a>
                     </div>
                 </div>
                 <div>
                     <div class="icon nav__toggler">
-                        <img src="images/menu.svg" alt="Menu"/>
+                        <img src="55d16657808bb403b8ede1e3ce879b93" alt="Menu">
                     </div>
                 </div>
                 <div>
                     <div class="icon nav__toggler__close">
-                        <img src="images/times.svg" alt="Close"/>
+                        <img src="488da787ede749ce0c00bfc5a7e7f46c" alt="Close">
                     </div>
                 </div>
                 <div class="list nav__list collapsible__content">
@@ -73,7 +72,7 @@
                     <p class="lead">Clinical counselling specializing in anxiety, panic attacks, depression, stress, and
                         grief</p>
                 </header>
-                <a class="btn" href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling-Inquiry" target="_blank">Check Availability</a>
+                <a class="btn" href="421ec524f6f06278447d187ba2b6c4c1" target="_blank">Check Availability</a>
                 <p class="lead-second padding-top--block">— Canadian Certified Counsellor in Langley, BC —</p>
             </section>
             
@@ -91,18 +90,14 @@
                         <div class="grid grid--1x2">
                             <figure data-aos="zoom-in-up" class="style-container">
                                 <picture>
-                                    <source type="image/webp" srcset="images/profile@2x.webp 720w,
-                                                                    images/profile.webp 360w"
-                                                                    sizes="100vw"/>
-                                    <source type="image/jpg" srcset="images/profile@2x.jpg 720w,
-                                                                    images/profile.jpg 360w"
-                                                                    sizes="100vw"/>
-                                    <img class="profile__image" src="images/profile@2x.jpg" alt="Dr. Benjamin Schulz Profile Image">
+                                    <source type="image/webp" srcset="35eb74103ca585bfb87eca9d011ab4a2 720w,3b805ced30416184ab324c5504061345 360w" sizes="100vw">
+                                    <source type="image/jpg" srcset="bcf9d11a5ff55123d931769b990fa9c8 720w,5fb406812894d0b11a43b90a35178122 360w" sizes="100vw">
+                                    <img class="profile__image" src="bcf9d11a5ff55123d931769b990fa9c8" alt="Dr. Benjamin Schulz Profile Image">
                                 </picture>
                                 <div class="style style-wraper"></div>
                             </figure>
                             <div class="profile__content">
-                                <h2 class="block__heading" >About Dr. Benjamin Schulz</h2>
+                                <h2 class="block__heading">About Dr. Benjamin Schulz</h2>
                                 <h4 class="text-align-tablet--left">Dr. Schulz provides psychotherapy to teenagers and adults, treating a range of mental health concerns including depression, anxiety, emotion dysregulation, and trauma.</h4>
                                 <h4 class="text-align-tablet--left profile__p__phone-to-tablet-hide profile__p__desktop-show">Dr. Schulz also works with clients to address everyday life stressors like career decision-making, interpersonal relationship difficulties, and family conflict. Dr. Schulz practices from a Christian worldview and draws primarily from existential, cognitive behavioural therapy, and dialectical behaviour therapy treatment interventions.</h4>
                             </div>
@@ -112,7 +107,7 @@
                             <div class="profile__content2">
                                 <h4 class="text__left__desktop profile__p__desktop-hide"> Dr. Schulz also works with clients to address everyday life stressors like career decision-making, interpersonal relationship difficulties, and family conflict. Dr. Schulz practices from a Christian worldview and draws primarily from existential, cognitive behavioural therapy, and dialectical behaviour therapy treatment interventions.</h4>
                                 <div class="eduation--margin">
-                                    <div >
+                                    <div>
                                         <h3 class="block__heading">Education</h3>
                                         <ul class="list list__tablet text-align-tablet--left lead ">
                                             <li class="profile--decoration">PhD, Doctor of Philosophy in Educational Psychology, University of Victoria (2020)</li>
@@ -136,7 +131,7 @@
             <div class="see-through container block block__header">
                 <div data-aos="fade-up" class="margin--block">
                     
-                    <img src="images/quotes.svg" alt="Benjamin Schulz Counselling Logo"/>
+                    <img src="4843c201a667800a992d89b968261b4f" alt="Benjamin Schulz Counselling Logo">
                     
                     <h4 class="light">You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, ‘I lived through this horror. I can take the next thing that comes along.’</h4>
                     <h4 class="accent bold">-Eleanor Roosevelt</h4>
@@ -215,7 +210,7 @@
                             <h2 class="block__heading primary__heading">Fees</h2>
                         </div>
                         <div class="grid  grid--1x3-desktop">
-                            <table  class="fee__body">
+                            <table class="fee__body">
                                 <thead>
                                     <tr>
                                         <th>
@@ -240,7 +235,7 @@
                                 <tfoot>
                                     <tr>
                                         <th class="leran-more-wrap">
-                                            <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling-Inquiry" target="_blank">
+                                            <a href="421ec524f6f06278447d187ba2b6c4c1" target="_blank">
                                             <div class="fee__learn-more fee__small">Learn More</div>
                                             </a>
                                     </th>
@@ -272,14 +267,14 @@
                                 <tfoot>
                                     <tr>
                                         <th class="leran-more-wrap">
-                                            <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling-Inquiry" target="_blank">
+                                            <a href="421ec524f6f06278447d187ba2b6c4c1" target="_blank">
                                             <div class="fee__learn-more fee__small">Learn More</div>
                                             </a>
                                     </th>
                                     </tr>
                                 </tfoot>
                             </table>
-                            <table  class="fee__body">
+                            <table class="fee__body">
                                 <thead>
                                     <tr>
                                         <th>
@@ -304,7 +299,7 @@
                                 <tfoot>
                                     <tr>
                                         <th class="leran-more-wrap">
-                                            <a href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling-Inquiry" target="_blank">
+                                            <a href="421ec524f6f06278447d187ba2b6c4c1" target="_blank">
                                             <div class="fee__learn-more fee__small">Learn More</div>
                                             </a>
                                     </th>
@@ -323,7 +318,7 @@
                                     before vedio session. We accept payment through E-transfer before vedio session. <!-- After you create your
                                     confidencial account through the booking system, you will be able to pay your session
                                     online.</li> -->
-                            </ul>
+                            </li></ul>
                         </div>
                         <!-- <div class="margin--block">
                             <h3 class="text-align-tablet--left">Online Booking System Security</h3>
@@ -361,15 +356,12 @@
                                 <a href="tel:+7787440934">(778) 744-0934</a>
                             </p>
                             <p><span><i class="far fa-envelope"></i></span>
-                                <a class="location__gmail"
-                                    href="mailto:benjaminschulzcounselling@gmail.com?subject=Counselling_Session_Enquiry">benjaminschulzcounselling@gmail.com</a>
+                                <a class="location__gmail" href="d5f94c2f043e14c6b7d995b1e1bea108">benjaminschulzcounselling@gmail.com</a>
                             </p>
                             <p class="location__office-description">( You will receive our office unit after you book your
                                 first session )</p>
                         </div>
-                        <iframe data-aos="zoom-in" class="location__map"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2608.8497752645476!2d-122.6449684!3d49.1654596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d343544af92b%3A0xa14ddebf32fb300b!2s8968%20208%20St%2C%20Langley%20City%2C%20BC%20V1M%204C5!5e0!3m2!1sen!2sca!4v1617477768395!5m2!1sen!2sca"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe data-aos="zoom-in" class="location__map" src="92b775be3fb4882a523923680ec92f83" width="600" height="450" style="2de01535e92f4338cb7c7c5f54c4fc4e" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -383,16 +375,13 @@
                     </div>
                     <div class="grid grid--1x2-desktop">
                         <picture data-aos="zoom-in">
-                            <source type="image/webp" srcset="images/office@2x.webp 720w,
-                                                                images/office.webp 360w" 
-                                                                sizes="100vw"/>
-                            <source type="image/jpg" srcset="images/office@2x.jpg 720w,
-                                                                images/office.jpg 360w" 
-                                                                sizes="100vw"/>
-                            <img class="office__image" src="images/office@2x.jpg" alt="Dr. Benjamin Schulz Office Image">
+                            <source type="image/webp" srcset="2c54036aa06ad7241a84c2d8100cda0a 720w,d020230a149a3f8241666e7b0ce0aea1 360w" sizes="100vw">
+                            <source type="image/jpg" srcset="31119aafeaa70b7462dfd6c4a55f95e8 720w,aa7464cfc860616141579233b6b729da 360w" sizes="100vw">
+                            <img class="office__image" src="31119aafeaa70b7462dfd6c4a55f95e8" alt="Dr. Benjamin Schulz Office Image">
                         </picture>
                         <div class="dark location__body">
-                            <p>A private and comfortable space for you to unwind.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod quidem eveniet
+                                doloremque deserunt officia?</p>
                         </div>
                     </div>
                 </div>
@@ -408,18 +397,14 @@
                 <p class="dark text-align--left">Please provide a brief description of your presenting concerns and let us
                     know if you would like to book a free fifteen minute phone consultation.</p>
                 <form class="form-contact" action="https://formspree.io/f/xwkablkz" method="POST">
-                    <input class="form-control form-group" name="name" type="text" placeholder="Name*" minlength="1"
-                        maxlength="100" required>
+                    <input class="form-control form-group" name="name" type="text" placeholder="Name*" minlength="1" maxlength="100" required="">
                     <div class="form-grid form-grid--1x2 form-group">
-                        <input class="form-control" name="mail" type="email" placeholder="Email*" minlength="5"
-                            maxlength="255" required>
+                        <input class="form-control" name="mail" type="email" placeholder="Email*" minlength="5" maxlength="255" required="">
                         <input class="form-control" name="phone" type="tel" placeholder="Phone" minlength="10" maxlength="13">
                     </div>
-                    <input class="form-control form-group" name="Subject" type="text" placeholder="Subject" minlength="1"
-                        maxlength="100">
+                    <input class="form-control form-group" name="Subject" type="text" placeholder="Subject" minlength="1" maxlength="100">
                     <div>
-                        <textarea class="form-control form-control-message form-group" name="message" 
-                            placeholder="Message*" minlength="3" maxlength="500" required></textarea>
+                        <textarea class="form-control form-control-message form-group" name="message" placeholder="Message*" minlength="3" maxlength="500" required=""></textarea>
                     </div>
                     <div class="form-btn-wraper">
                         <button class="form-btn" type="submit" name="submit">send message</button>
@@ -440,21 +425,17 @@
             <div class="membership__body">
                 <div class="membership-wrap">
                     <!-- Professional verification provided by Psychology Today -->
-                    <a href="https://www.psychologytoday.com/profile/366222" class="sx-verified-seal"></a>
-                    <script  src="https://member.psychologytoday.com/verified-seal.js"
-                        data-badge="12" data-id="366222"
-                        data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
+                    <a href="3d8e27f7bd0c91d4e2cb76e2ca6aac69" class="sx-verified-seal"></a>
+                    <script src="6b4d92960995e8c49a121c0f490ca82f" data-badge="12" data-id="366222" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
                     <!-- End Verification -->
                 </div>
 
                 <div class="membership-wrap">
-                    <a href="https://www.ccpa-accp.ca/" target="_blank">
-                    <picture >
-                        <source type="image/webp" srcset="images/ccpa_logo@2x.webp 720w,
-                                                        images/ccpa_logo.webp 360w" sizes="100vw"/>
-                        <source type="image/jpg" srcset="images/ccpa_logo@2x.jpg 720w,
-                                                        images/ccpa_logo.jpg 360w" sizes="100vw"/>
-                        <img class="ccpa_logo__image" src="images/ccpa_logo.jpg" alt="Canadian Counselling and Psychotherapy Association Logo">
+                    <a href="9c0beefa97a5f7691b748af8c7499a50" target="_blank">
+                    <picture>
+                        <source type="image/webp" srcset="b9458b428f107288f9bfc1529320a53f 720w,624a1a3faffd5ab5cfb8d170c9a1d98b 360w" sizes="100vw">
+                        <source type="image/jpg" srcset="1a1127da27c0009e49c1fd1bde73be8c 720w,841cebc12fccad8d3433c3dfd6f253a5 360w" sizes="100vw">
+                        <img class="ccpa_logo__image" src="841cebc12fccad8d3433c3dfd6f253a5" alt="Canadian Counselling and Psychotherapy Association Logo">
                     </picture></a>
 
                 </div>
@@ -466,14 +447,14 @@
 
 
 
-    <script src="js/main.js"></script>
-    <script src="js/webp.js"></script>
+    <script src="83721c4cb12039c9216b7f86584866ce"></script>
+    <script src="a685ec2fc4ddf2ea332c46fe9e79ca56"></script>
     
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
+    <script src="f4943121576a598caf17c7d29ae039ad"></script>
+    <script data-parcel-key="c9ac1725d4afcd37c40c451af70b3514">
         AOS.init();
     </script>
-<script>
+<script data-parcel-key="c23e376541accd6ebd2ad28eb5174b26">
         //Get the button
 var mybutton = document.getElementById("back-to-top");
 
