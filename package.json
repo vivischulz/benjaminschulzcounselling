@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.13555085.js",
-  "dependencies": {
-    "parcel": "^2.0.0-beta.3.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"parcel index.html",
