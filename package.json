@@ -1,17 +1,15 @@
 {
-  "devDependencies": {
-    "cssnano": "^5.0.5",
+  "name": "benjaminschulzcounselling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.13555085.js",
+  "dependencies": {
     "parcel": "^2.0.0-beta.3.1"
   },
-  "name": "BenjaminSchulzCounselling",
-  "version": "1.0.0",
-  "main": "index.html",
-  "dependencies": {
-    "postcss": "^8.2.7"
-  },
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"parcel index.html",
+    "build":"parcel build index.html --no-minify"
   },
   "repository": {
     "type": "git",
@@ -24,5 +22,7 @@
     "url": "https://github.com/vivischulz/benjaminschulzcounselling/issues"
   },
   "homepage": "https://github.com/vivischulz/benjaminschulzcounselling#readme",
-  "description": ""
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
